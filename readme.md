@@ -65,8 +65,8 @@
 
 ### Publishing
 
-* [semantic-release](https://github.com/semantic-release/semantic-release) ⭐ 23,277 | 🐛 378 | 🌐 JavaScript | 📅 2026-02-06 - Fully automated package publishing.
-* [release-it](https://github.com/webpro/release-it) ⭐ 8,827 | 🐛 48 | 🌐 JavaScript | 📅 2026-01-20 - Automate releases for Git repositories and/or npm packages. Changelog generation, GitHub/GitLab releases, etc.
+* [semantic-release](https://github.com/semantic-release/semantic-release) ⭐ 23,279 | 🐛 378 | 🌐 JavaScript | 📅 2026-02-08 - Fully automated package publishing.
+* [release-it](https://github.com/webpro/release-it) ⭐ 8,830 | 🐛 48 | 🌐 JavaScript | 📅 2026-01-20 - Automate releases for Git repositories and/or npm packages. Changelog generation, GitHub/GitLab releases, etc.
 * [np](https://github.com/sindresorhus/np) ⭐ 7,680 | 🐛 1 | 🌐 JavaScript | 📅 2026-01-29 - A better `npm publish`.
 * [publish-please](https://github.com/inikulin/publish-please) ⭐ 738 | 🐛 6 | 🌐 JavaScript | 📅 2024-08-24 - Publish packages safely and gracefully.
 * [npm-release](https://github.com/phuu/npm-release) ⭐ 103 | 🐛 1 | 🌐 JavaScript | 📅 2025-02-15 - Making releasing to npm so easy a kitten could probably do it™.
@@ -74,7 +74,7 @@
 
 ### Registry
 
-* [verdaccio](https://github.com/verdaccio/verdaccio) ⭐ 17,459 | 🐛 51 | 🌐 TypeScript | 📅 2026-02-07 - Lightweight private npm proxy registry.
+* [verdaccio](https://github.com/verdaccio/verdaccio) ⭐ 17,458 | 🐛 51 | 🌐 TypeScript | 📅 2026-02-08 - Lightweight private npm proxy registry.
 * [nrm](https://github.com/Pana/nrm) ⭐ 2,998 | 🐛 32 | 🌐 TypeScript | 📅 2025-07-13 - Registry manager.
 * [npm-register](https://github.com/dickeyxxx/npm-register) ⚠️ Archived - Easy to set up and maintain npm registry and proxy.
 * [npm-name](https://github.com/sindresorhus/npm-name-cli) ⭐ 288 | 🐛 0 | 🌐 JavaScript | 📅 2025-09-15 - Check whether a package name is available on npm.
@@ -92,7 +92,7 @@
 
 ### Other
 
-* [npm-check](https://github.com/dylang/npm-check) ⭐ 6,642 | 🐛 235 | 🌐 JavaScript | 📅 2026-02-07 - Check for outdated, incorrect, and unused dependencies, as well as interactive update.
+* [npm-check](https://github.com/dylang/npm-check) ⭐ 6,642 | 🐛 233 | 🌐 JavaScript | 📅 2026-02-07 - Check for outdated, incorrect, and unused dependencies, as well as interactive update.
 * [npm-run-all](https://github.com/mysticatea/npm-run-all) ⭐ 5,841 | 🐛 112 | 🌐 JavaScript | 📅 2024-08-15 - CLI tool to run multiple npm-scripts in parallel or serial.
 * [npm-windows-upgrade](https://github.com/felixrieseberg/npm-windows-upgrade) ⚠️ Archived - Upgrade npm on Windows.
 * [emma-cli](https://github.com/maticzav/emma-cli) ⭐ 1,244 | 🐛 47 | 🌐 TypeScript | 📅 2026-02-02 - Interactive CLI package search utility.
@@ -127,8 +127,8 @@
 ## Clients
 
 * [yarn](https://github.com/yarnpkg/yarn) ⭐ 41,557 | 🐛 2,061 | 🌐 JavaScript | 📅 2026-02-07 - Fast, reliable, and secure dependency management.
-* [pnpm](https://github.com/pnpm/pnpm) ⭐ 33,919 | 🐛 2,097 | 🌐 TypeScript | 📅 2026-02-07 - Fast, disk space efficient package manager.
-* [npm](https://github.com/npm/cli) ⭐ 9,500 | 🐛 632 | 🌐 JavaScript | 📅 2026-02-06 - The official client.
+* [pnpm](https://github.com/pnpm/pnpm) ⭐ 33,922 | 🐛 2,100 | 🌐 TypeScript | 📅 2026-02-07 - Fast, disk space efficient package manager.
+* [npm](https://github.com/npm/cli) ⭐ 9,499 | 🐛 632 | 🌐 JavaScript | 📅 2026-02-06 - The official client.
 
 ## Tips
 
@@ -348,7 +348,7 @@ Bentley
 
 ### Run commands with different Node.js versions
 
-With `npx` (Comes bundled with npm v5.2.0 or newer) and the [`node-bin`](https://www.npmjs.com/package/node-bin) package, you can easily try out code in different Node.js versions without having to use a version manager like [`nvm`](http://nvm.sh), [`nave`](https://github.com/isaacs/nave) ⭐ 1,630 | 🐛 2 | 🌐 Shell | 📅 2026-01-23, or [`n`](https://github.com/tj/n) ⭐ 19,492 | 🐛 3 | 🌐 Shell | 📅 2025-11-27.
+With `npx` (Comes bundled with npm v5.2.0 or newer) and the [`node-bin`](https://www.npmjs.com/package/node-bin) package, you can easily try out code in different Node.js versions without having to use a version manager like [`nvm`](http://nvm.sh), [`nave`](https://github.com/isaacs/nave) ⭐ 1,630 | 🐛 2 | 🌐 Shell | 📅 2026-01-23, or [`n`](https://github.com/tj/n) ⭐ 19,493 | 🐛 3 | 🌐 Shell | 📅 2025-11-27.
 
 ```
 $ npx --package=node-bin@6.11.0 -- node --version
@@ -465,4 +465,4 @@ Great for prototyping, but download the file or use Browserify yourself for prod
 
 ## Related
 
-* [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 64,903 | 🐛 28 | 📅 2026-01-14
+* [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) ⭐ 64,910 | 🐛 28 | 📅 2026-01-14
